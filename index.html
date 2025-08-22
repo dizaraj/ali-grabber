@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Grabber - The Ultimate AliExpress Media Downloader</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #FF4747 0%, #FF7B7B 100%);
+        }
+
+        .feature-card {
+            background-color: white;
+            border: 1px solid #e5e7eb;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="https://raw.githubusercontent.com/dizaraj/ali-grabber/master/icons/icon48.png"
+                    alt="Ali Grabber Logo" class="h-10 w-10">
+                <span class="text-2xl font-bold text-gray-800">Ali Grabber</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#features" class="text-gray-600 hover:text-red-500 transition">Features</a>
+                <a href="#how-it-works" class="text-gray-600 hover:text-red-500 transition">How It Works</a>
+                <a href="#privacy" class="text-gray-600 hover:text-red-500 transition">Privacy</a>
+                <a href="https://chrome.google.com/webstore/detail/npcbgejjclgihpnldconopafhafmjipo" target="_blank"
+                    class="gradient-bg text-white font-semibold px-5 py-2 rounded-full hover:opacity-90 transition shadow-lg">Add
+                    to Chrome</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="gradient-bg text-white">
+            <div class="container mx-auto px-6 py-20 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">The Ultimate AliExpress Media
+                    Downloader</h1>
+                <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">
+                    Effortlessly download all product images, description images, and videos from any AliExpress page in
+                    a single click.
+                </p>
+                <a href="https://chrome.google.com/webstore/detail/npcbgejjclgihpnldconopafhafmjipo" target="_blank"
+                    class="bg-white text-red-500 font-bold py-3 px-8 rounded-full text-lg hover:bg-gray-100 transition shadow-xl transform hover:scale-105">
+                    Install for Free
+                </a>
+                <div class="mt-12">
+                    <img src="./assets/screenshot_01.jpg"
+                        alt="Ali Grabber Screenshot" class="rounded-xl shadow-2xl mx-auto max-w-4xl w-full">
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">Simple Steps to Grab Any Media</h2>
+                    <p class="text-gray-600 mt-2">Get all the files you need in under a minute.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 text-center">
+                    <div class="p-6">
+                        <div
+                            class="flex items-center justify-center h-16 w-16 rounded-full gradient-bg text-white text-2xl font-bold mx-auto mb-4">
+                            1</div>
+                        <h3 class="text-xl font-semibold mb-2">Navigate & Open</h3>
+                        <p class="text-gray-600">Go to any AliExpress product page and click the Ali Grabber icon to
+                            open the sidebar.</p>
+                    </div>
+                    <div class="p-6">
+                        <div
+                            class="flex items-center justify-center h-16 w-16 rounded-full gradient-bg text-white text-2xl font-bold mx-auto mb-4">
+                            2</div>
+                        <h3 class="text-xl font-semibold mb-2">Grab Media</h3>
+                        <p class="text-gray-600">Click the "Grab Media" button. The extension will instantly find all
+                            images and videos.</p>
+                    </div>
+                    <div class="p-6">
+                        <div
+                            class="flex items-center justify-center h-16 w-16 rounded-full gradient-bg text-white text-2xl font-bold mx-auto mb-4">
+                            3</div>
+                        <h3 class="text-xl font-semibold mb-2">Download</h3>
+                        <p class="text-gray-600">Download files individually or click "Download All" to get everything
+                            in a single ZIP file.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="bg-white py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">Packed with Powerful Features</h2>
+                    <p class="text-gray-600 mt-2">Everything you need for efficient media collection.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="feature-card p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-2">One-Click Grabbing</h3>
+                        <p>Save time with a single button to find all media on a page.</p>
+                    </div>
+                    <div class="feature-card p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-2">ZIP File Download</h3>
+                        <p>Download all media files neatly organized into one ZIP archive.</p>
+                    </div>
+                    <div class="feature-card p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-2">Video & Image Support</h3>
+                        <p>Downloads everything, including main product videos and all description images.</p>
+                    </div>
+                    <div class="feature-card p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-2">Convenient Sidebar UI</h3>
+                        <p>Works alongside the product page without opening new tabs or windows.</p>
+                    </div>
+                    <div class="feature-card p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-2">Smart Thumbnails</h3>
+                        <p>Displays clear thumbnails for all files, with a play icon for videos.</p>
+                    </div>
+                    <div class="feature-card p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-2">Lightweight & Fast</h3>
+                        <p>Built with performance in mind to ensure a smooth and fast experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy Section -->
+        <section id="privacy" class="py-20">
+            <div class="container mx-auto px-6 text-center max-w-3xl">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Your Privacy is Our Priority</h2>
+                <p class="text-gray-600 mb-6">
+                    Ali Grabber is built to be safe and secure. We believe in complete transparency and respect for your
+                    data.
+                </p>
+                <div class="text-left bg-white p-8 rounded-lg shadow-lg border">
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-3 mt-1">✓</span>
+                            <span><strong>No Data Collection:</strong> We do not collect, store, or transmit any of your
+                                personal information or browsing history.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-3 mt-1">✓</span>
+                            <span><strong>Local Operation:</strong> The extension operates entirely on your local
+                                machine. Nothing is ever sent to our servers.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-3 mt-1">✓</span>
+                            <span><strong>Minimum Permissions:</strong> We only request the permissions absolutely
+                                necessary for the extension to function.</span>
+                        </li>
+                    </ul>
+                    <a href="https://github.com/dizaraj/ali-grabber/blob/master/SECURITY.md" target="_blank"
+                        class="text-red-500 hover:underline mt-6 inline-block">Read the full Privacy Policy →</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>&copy; 2025 Ali Grabber. Developed by Dizaraj Dey.</p>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="https://dizaraj.github.io" target="_blank" class="hover:text-red-400 transition">Portfolio</a>
+                <a href="https://coff.ee/dizaraj" target="_blank" class="hover:text-red-400 transition">Support the
+                    Project</a>
+                <a href="mailto:dizaraj@gmail.com" class="hover:text-red-400 transition">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
