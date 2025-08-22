@@ -16,10 +16,8 @@ When you need to save all the media from an AliExpress listing, downloading each
     - Thumbnails of all found media will appear in the sidebar.
     - Click the download icon on any individual thumbnail to save that specific file.
     - Click the **"Download All"** button to save all the media at once in a convenient ZIP file.
-<div>
 <span><img src="./screenshots/screenshot_02.jpg" height="300px" alt="Ali Grabber Screenshot 03"/></span>
 <span><img src="./screenshots/screenshot_03.jpg" height="300px" alt="Ali Grabber Screenshot 04"/></span>
-</div> 
 
 ### ⚙️ Key Features
 - __Convenient Sidebar UI__: Works right alongside the product page without opening new tabs.
