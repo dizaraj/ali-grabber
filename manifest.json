@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Ali Grabber",
   "version": "1.1",
-  "description": "Easily download slider and description images from AliExpress product listings.",
+  "description": "Your one-click media downloader from AliExpress product listings.",
   "permissions": [
     "sidePanel",
     "scripting",
@@ -19,10 +19,11 @@
   "action": {
     "default_icon": {
       "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
     },
-    "default_title": "Open Ali Grabber"
+    "default_title": "Ali Grabber"
   },
   "background": {
     "service_worker": "background.js"
@@ -35,6 +36,7 @@
   ],
   "icons": {
     "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   }

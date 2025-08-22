@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ali Grabber</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="css2.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link href="./assets/css2.css?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <!-- Header Section -->
@@ -14,27 +16,34 @@
             <img src="icons/icon48.png" alt="Ali Grabber Logo" class="logo">
             <div class="header-text">
                 <h1>Ali Grabber</h1>
-                <p>Your one-click image downloader for AliExpress.</p>
+                <p>Your one-click media downloader for AliExpress.</p>
             </div>
         </header>
 
         <!-- Main Content Section -->
         <main class="main-content">
             <div id="main-action-container">
-                 <!-- This button will be updated by JavaScript -->
+                <!-- This button will be updated by JavaScript -->
             </div>
             <p id="status-message" class="status-message"></p>
             <div id="image-gallery" class="image-gallery">
-                <!-- Image thumbnails will be injected here -->
+                <!-- Media thumbnails will be injected here -->
+            </div>
+            <!-- NEW: Container for Top Products -->
+            <div id="top-products-container">
+                <!-- Top products list will be injected here -->
             </div>
         </main>
-        
+
         <!-- Footer Section -->
         <footer class="footer">
             <a href="https://dizaraj.github.io" target="_blank" class="footer-link">Developer</a>
             <a href="https://coff.ee/dizaraj" target="_blank" class="footer-link donate">Donate</a>
         </footer>
     </div>
+    <!-- Add JSZip library for creating zip files -->
+    <script src="./assets/jszip.min.js"></script>
     <script src="popup.js"></script>
 </body>
+
 </html>
