@@ -7,18 +7,19 @@ When you need to save all the media from an AliExpress listing, downloading each
 ### 📚 How to Use
 1. __Navigate to a Product Page__: Go to any product page on `aliexpress.com` or `aliexpress.us`.
 2. __Open the Sidebar__: Click the **"Ali Grabber"** icon in your Chrome toolbar to open the sidebar.
-<center><img src="./screenshots/screenshot_04.jpg" height="300px" alt="Ali Grabber Screenshot 01"/></center>
+<img src="./screenshots/screenshot_04.jpg" height="300px" alt="Ali Grabber Screenshot 01"/>
 
 2. __Grab Media__: Click the **"Grab Media"** button. The extension will find all product images, description images, and videos.
-<center><img src="./screenshots/screenshot_01.jpg" height="250px" alt="Ali Grabber Screenshot 02"/></center>
+<img src="./screenshots/screenshot_01.jpg" height="250px" alt="Ali Grabber Screenshot 02"/>
 
 3. __View and Download__:
     - Thumbnails of all found media will appear in the sidebar.
     - Click the download icon on any individual thumbnail to save that specific file.
     - Click the **"Download All"** button to save all the media at once in a convenient ZIP file.
-<center>
-<img src="./screenshots/screenshot_02.jpg" height="300px" alt="Ali Grabber Screenshot 03"/>
-<img src="./screenshots/screenshot_03.jpg" height="300px" alt="Ali Grabber Screenshot 04"/></center>
+<div>
+<span><img src="./screenshots/screenshot_02.jpg" height="300px" alt="Ali Grabber Screenshot 03"/></span>
+<span><img src="./screenshots/screenshot_03.jpg" height="300px" alt="Ali Grabber Screenshot 04"/></span>
+</div>
 
 ### ⚙️ Key Features
 - __Convenient Sidebar UI__: Works right alongside the product page without opening new tabs.
