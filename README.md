@@ -7,16 +7,18 @@ When you need to save all the media from an AliExpress listing, downloading each
 ### 📚 How to Use
 1. __Navigate to a Product Page__: Go to any product page on `aliexpress.com` or `aliexpress.us`.
 2. __Open the Sidebar__: Click the **"Ali Grabber"** icon in your Chrome toolbar to open the sidebar.
-<img src="./screenshots/screenshot_04.jpg" height="300px" alt="Ali Grabber Screenshot 01">
+<center><img src="./screenshots/screenshot_04.jpg" height="300px" alt="Ali Grabber Screenshot 01"/></center>
 
 2. __Grab Media__: Click the **"Grab Media"** button. The extension will find all product images, description images, and videos.
-<img src="./screenshots/screenshot_01.jpg" height="250px" alt="Ali Grabber Screenshot 02">
+<center><img src="./screenshots/screenshot_01.jpg" height="250px" alt="Ali Grabber Screenshot 02"/></center>
+
 3. __View and Download__:
     - Thumbnails of all found media will appear in the sidebar.
     - Click the download icon on any individual thumbnail to save that specific file.
     - Click the **"Download All"** button to save all the media at once in a convenient ZIP file.
-<img src="./screenshots/screenshot_02.jpg" height="300px" alt="Ali Grabber Screenshot 03">
-<img src="./screenshots/screenshot_03.jpg" height="300px" alt="Ali Grabber Screenshot 04">
+<center>
+<img src="./screenshots/screenshot_02.jpg" height="300px" alt="Ali Grabber Screenshot 03"/>
+<img src="./screenshots/screenshot_03.jpg" height="300px" alt="Ali Grabber Screenshot 04"/></center>
 
 ### ⚙️ Key Features
 - __Convenient Sidebar UI__: Works right alongside the product page without opening new tabs.
@@ -45,7 +47,7 @@ This extension is built with your privacy in mind. It does not collect, store, o
 If you have any questions, require support, or have feedback, please feel free to get in touch.
 - Developer: **Dizaraj Dey**
 - Email: dizaraj@gmail.com
-- Portfolio: [dizaraj.github.io](dizaraj.github.io)
+- Portfolio: dizaraj.github.io
 
 ### ❤️ Support the Project
 **Feedback & Contributing:** Found a bug or have a feature request? Please open an issue on GitHub.
